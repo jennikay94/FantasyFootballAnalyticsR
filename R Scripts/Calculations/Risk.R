@@ -47,8 +47,8 @@ wisdomOfTheCrowd <- wisdomOfTheCrowd[,c("name","pick_crowd","sdPick_crowd"), wit
 #drafts <- drafts[,c("name","pick_crowd","sdPick_crowd")]
 
 #Change player names
-#drafts[which(drafts$name=="Robert Griffin"),"name"] <- "Robert Griffin III"
-#drafts[which(drafts$name=="Stevie Johnson"),"name"] <- "Steve Johnson"
+#drafts[which(drafts$name=="A.J. Green"),"name"] <- "A.J. Green"
+#drafts[which(drafts$name=="Mike Evans"),"name"] <- "Mike Evans"
 
 #Merge files
 risk <- merge(experts, wisdomOfTheCrowd, by="name", all=TRUE)
